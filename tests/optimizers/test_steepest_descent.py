@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from src.evaluation import creer_matrice_ecarts, fonction_evaluation
-from src.optimizers.steepest_descent import steepest_descent_with_initial_solution, steepest_descent
-from src.problem import load_problem
+from TP_RO.src.evaluation import creer_matrice_ecarts, fonction_evaluation
+from TP_RO.src.optimizers.steepest_descent import steepest_descent_with_initial_solution, steepest_descent
+from TP_RO.src.problem import load_problem
 import numpy as np
 
 
