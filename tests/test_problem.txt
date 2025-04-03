@@ -1,0 +1,7 @@
+DM 1 5
+DM 2 9
+DM 2 10
+TR 7 1 0.5 0.5
+TR 9 2 0.3 0.3
+CE 7 9 4
+Dummy Line
