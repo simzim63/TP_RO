@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from src.problem import load_problem
+from TP_RO.src.problem import load_problem
 
 
 class TestAgentShape(TestCase):
