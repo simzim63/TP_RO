@@ -1,9 +1,9 @@
 from unittest import TestCase
 
-from src.evaluation import creer_matrice_ecarts
-from src.optimizers.optim_utils import find_best_neighbor, random_neighbor, random_first_solution, \
+from TP_RO.src.evaluation import creer_matrice_ecarts
+from TP_RO.src.optimizers.optim_utils import find_best_neighbor, random_neighbor, random_first_solution, \
     find_best_neighbor_with_tabou
-from src.problem import load_problem
+from TP_RO.src.problem import load_problem
 import numpy as np
 
 class TestAgentShape(TestCase):
