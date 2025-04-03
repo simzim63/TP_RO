@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from src.evaluation import fonction_evaluation
-from src.optimizers.random_walk import random_walk
-from src.problem import load_problem
+from TP_RO.src.evaluation import fonction_evaluation
+from TP_RO.src.optimizers.random_walk import random_walk
+from TP_RO.src.problem import load_problem
 
 
 class TestRandomWalk(TestCase):
