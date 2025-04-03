@@ -1,5 +1,5 @@
-from src.drawer import draw_solution, reset_drawer
-from src.optimizers.optim_utils import random_first_solution, random_neighbor
+from TP_src.drawer import draw_solution, reset_drawer
+from TP_src.optimizers.optim_utils import random_first_solution, random_neighbor
 
 
 def random_walk_with_initial_solution(problem, initial_solution, fonction_evaluation, max_iterations, display = True):
