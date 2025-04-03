@@ -1,5 +1,5 @@
-from TP_src.drawer import draw_solution, reset_drawer
-from TP_src.optimizers.optim_utils import random_first_solution, find_best_neighbor, random_neighbor
+from TP_RO.src.drawer import draw_solution, reset_drawer
+from TP_RO.src.optimizers.optim_utils import random_first_solution, find_best_neighbor, random_neighbor
 
 
 def random_descent_with_initial_solution(problem, initial_solution, fonction_evaluation, max_iterations, display = True):
