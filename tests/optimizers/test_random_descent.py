@@ -1,9 +1,9 @@
 from unittest import TestCase
 
-from src.evaluation import fonction_evaluation
-from src.optimizers.random_descent import random_descent
+from TP_RO.src.evaluation import fonction_evaluation
+from TP_RO.src.optimizers.random_descent import random_descent
 
-from src.problem import load_problem
+from TP_RO.src.problem import load_problem
 
 class TestRandomDescent(TestCase):
     def test_draw_realistic_example(self):
