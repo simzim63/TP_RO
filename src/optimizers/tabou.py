@@ -1,5 +1,5 @@
-from src.drawer import draw_solution, reset_drawer
-from src.optimizers.optim_utils import random_first_solution, find_best_neighbor, find_best_neighbor_with_tabou
+from TP_RO.src.drawer import draw_solution, reset_drawer
+from TP_RO.src.optimizers.optim_utils import random_first_solution, find_best_neighbor, find_best_neighbor_with_tabou
 from collections import deque
 
 def tabou_with_initial_solution(problem, initial_solution, fonction_evaluation, max_without_improvement, length_list_tabou, tabou_element_function, max_iterations, display = True):
