@@ -1,7 +1,7 @@
 import numpy as np
 
-from src.drawer import reset_drawer, draw_solution
-from src.evaluation import creer_matrice_ecarts
+from TP_RO.src.drawer import reset_drawer, draw_solution
+from TP_RO.src.evaluation import creer_matrice_ecarts
 from pymoo.visualization.scatter import Scatter
 
 
