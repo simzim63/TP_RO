@@ -1,7 +1,7 @@
 from IPython.core.display import clear_output, display
 from matplotlib import pyplot as plt
 import numpy as np
-from src.evaluation import creer_matrice_ecarts
+from TP_RO.src.evaluation import creer_matrice_ecarts
 
 fig = None
 ax = None
