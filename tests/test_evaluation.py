@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from src.evaluation import creer_matrice_ecarts
-from src.problem import load_problem
+from TP_RO.src.evaluation import creer_matrice_ecarts
+from TP_RO.src.problem import load_problem
 
 
 class TestAgentShape(TestCase):
